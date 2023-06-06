@@ -1,17 +1,18 @@
 <?php
-
-function validarNIT($nit){    
+/* ALGORTIMO PARA VALIDAR NIT 
+esta función valida la estructura y el dígito verificador de un número de NIT,
+ y retorna true si es válido o false si es inválido. */
+function validarNIT($nit)
+{
     $nit = $_GET['nit'];
     $tamanio = strlen($nit);
-    $validador = $nit[$tamanio-1];
-    $validador = strtolower( $validador ) == 'k' ? 10 : $validador;
+    $validador = $nit[$tamanio - 1];
+    $validador = strtolower($validador) == 'k' ? 10 : $validador;
     $posicion = 2;
     $suma = 0;
-    for($i = $tamanio -  2; $i >= 0 ; $i--){
+    for ($i = $tamanio -  2; $i >= 0; $i--) {
 
         $suma += $nit[$i] * $posicion;
-        // echo $nit[$i] . "pos: " . $posicion;
-        // echo "<br>";
         $posicion++;
     }
     $residuo = $suma % 11;
