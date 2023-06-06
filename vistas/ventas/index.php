@@ -40,7 +40,7 @@ try {
             <h2>Detalle de productos</h2>
             <div class="row mb-3">
                 <div class="col-lg-8">
-                    <label for="producto1">Producto 1</label>
+                    <label for="producto1">Producto No.1</label>
                     <select name="productos[]" id="producto1" class="form-control">
                         <option value="">SELECCIONE...</option>
                         <?php foreach ($productos as $key => $producto) : ?>
@@ -49,13 +49,13 @@ try {
                     </select>
                 </div>
                 <div class="col-lg-4">
-                    <label for="cantidad1">Cantidad 1</label>
+                    <label for="cantidad1">Cantidad No.1</label>
                     <input type="number" name="cantidades[]" id="cantidad1" class="form-control">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col-lg-8">
-                    <label for="producto2">Producto 2</label>
+                    <label for="producto2">Producto No.2</label>
                     <select name="productos[]" id="producto2" class="form-control">
                         <option value="">SELECCIONE...</option>
                         <?php foreach ($productos as $key => $producto) : ?>
@@ -64,13 +64,13 @@ try {
                     </select>
                 </div>
                 <div class="col-lg-4">
-                    <label for="cantidad2">Cantidad 2</label>
+                    <label for="cantidad2">Cantidad No.2</label>
                     <input type="number" name="cantidades[]" id="cantidad2" class="form-control">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col-lg-8">
-                    <label for="producto3">Producto 3</label>
+                    <label for="producto3">Producto No.3</label>
                     <select name="productos[]" id="producto3" class="form-control">
                         <option value="">SELECCIONE...</option>
                         <?php foreach ($productos as $key => $producto) : ?>
@@ -79,13 +79,13 @@ try {
                     </select>
                 </div>
                 <div class="col-lg-4">
-                    <label for="cantidad3">Cantidad 3</label>
+                    <label for="cantidad3">Cantidad No.3</label>
                     <input type="number" name="cantidades[]" id="cantidad3" class="form-control">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col-lg-8">
-                    <label for="producto4">Producto 4</label>
+                    <label for="producto4">Producto No.4</label>
                     <select name="productos[]" id="producto4" class="form-control">
                         <option value="">SELECCIONE...</option>
                         <?php foreach ($productos as $key => $producto) : ?>
@@ -94,13 +94,13 @@ try {
                     </select>
                 </div>
                 <div class="col-lg-4">
-                    <label for="cantidad4">Cantidad 4</label>
+                    <label for="cantidad4">Cantidad No.4</label>
                     <input type="number" name="cantidades[]" id="cantidad4" class="form-control">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col-lg-8">
-                    <label for="producto5">Producto 5</label>
+                    <label for="producto5">Producto No.5</label>
                     <select name="productos[]" id="producto5" class="form-control">
                         <option value="">SELECCIONE...</option>
                         <?php foreach ($productos as $key => $producto) : ?>
@@ -109,7 +109,7 @@ try {
                     </select>
                 </div>
                 <div class="col-lg-4">
-                    <label for="cantidad5">Cantidad 5</label>
+                    <label for="cantidad5">Cantidad No.5</label>
                     <input type="number" name="cantidades[]" id="cantidad5" class="form-control">
                 </div>
             </div>
