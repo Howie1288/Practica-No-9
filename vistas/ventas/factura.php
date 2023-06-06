@@ -11,17 +11,6 @@ require '../../modelos/Cliente.php';
         $venta = new Venta();
 
         $factura = $venta->factura($id);
-
- 
-        // $productos = $detalle->buscar();
-        // echo "<pre>";
-        // var_dump($ventas);
-        // echo "</pre>";
-        // echo "<pre>";
-        // var_dump($productos);
-        // echo "</pre>";
-        // exit;
-        // // $error = "NO se guardó correctamente";
         $subtotal = 0;
         $cantidad = 0;
     } catch (PDOException $e) {
