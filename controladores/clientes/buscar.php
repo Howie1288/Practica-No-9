@@ -57,7 +57,7 @@ try {
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-4">
-                <a href="/Practica-No-9/vistas/clientes/buscar.php" class="btn btn-info w-100">Volver al formulario</a>
+                <a href="/Practica-No-9/vistas/clientes/buscar.php" class="btn btn-info w-100">Regresar al formulario</a>
             </div>
         </div>
     </div>
