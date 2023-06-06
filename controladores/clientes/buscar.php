@@ -4,11 +4,7 @@ try {
     $cliente = new Cliente($_GET);
     
     $clientes = $cliente->buscar();
-    // echo "<pre>";
-    // var_dump($clientes);
-    // echo "</pre>";
-    // exit;
-    // $error = "NO se guardó correctamente";
+
 } catch (PDOException $e) {
     $error = $e->getMessage();
 } catch (Exception $e2){
@@ -46,13 +42,13 @@ try {
                             <td><?= $key + 1 ?></td>
                             <td><?= $cliente['CLIENTE_NOMBRE'] ?></td>
                             <td><?= $cliente['CLIENTE_NIT'] ?></td>
-                            <td><a class="btn btn-warning w-100" href="/crud_practica9/vistas/clientes/modificar.php?cliente_id=<?= $cliente['CLIENTE_ID']?>">Modificar</a></td>
-                            <td><a class="btn btn-danger w-100" href="/crud_practica9/controladores/clientes/eliminar.php?cliente_id=<?= $cliente['CLIENTE_ID']?>">Eliminar</a></td>
+                            <td><a class="btn btn-warning w-100" href="/Practica-No-9/vistas/clientes/modificar.php?cliente_id=<?= $cliente['CLIENTE_ID']?>">Modificar</a></td>
+                            <td><a class="btn btn-danger w-100" href="/Practica-No-9/controladores/clientes/eliminar.php?cliente_id=<?= $cliente['CLIENTE_ID']?>">Eliminar</a></td>
                         </tr>
                         <?php endforeach ?>
                         <?php else :?>
                             <tr>
-                                <td colspan="3">NO EXISTEN REGISTROS</td>
+                                <td colspan="3">NO HAY REGISTROS EN EXISTENCIA</td>
                             </tr>
                         <?php endif?>
                     </tbody>
@@ -61,7 +57,7 @@ try {
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-4">
-                <a href="/crud_practica9/vistas/clientes/buscar.php" class="btn btn-info w-100">Volver al formulario</a>
+                <a href="/Practica-No-9/vistas/clientes/buscar.php" class="btn btn-info w-100">Volver al formulario</a>
             </div>
         </div>
     </div>
