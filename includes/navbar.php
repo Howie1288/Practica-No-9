@@ -7,7 +7,7 @@
             <a class="navbar-brand" href="#">Tienda virtual</a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -15,26 +15,26 @@
                     </a>
                     <ul class="dropdown-menu bg-dark">
                         <li class="nav-item">
-                            <a class="nav-link" href="/crud_practica9/vistas/ventas/index.php">Ingresar venta</a>
+                            <a class="nav-link" href="/Practica-No-9/vistas/ventas/index.php">Ingresar venta</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/crud_practica9/vistas/ventas/buscar.php">Buscar venta</a>
+                            <a class="nav-link" href="/Practica-No-9/vistas/ventas/buscar.php">Buscar venta</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/crud_practica9/controladores/ventas/detalle_ventas.php">Detalle de venta</a>
+                            <a class="nav-link" href="/Practica-No-9/controladores/ventas/detalle_ventas.php">Detalle de venta</a>
                         </li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Productos
+                        Productos
                     </a>
                     <ul class="dropdown-menu bg-dark">
                         <li class="nav-item">
-                            <a class="nav-link" href="/crud_practica9/vistas/productos/index.php">Crear producto</a>
+                            <a class="nav-link" href="/Practica-No-9/vistas/productos/index.php">Crear producto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/crud_practica9/vistas/productos/buscar.php">Buscar producto</a>
+                            <a class="nav-link" href="/Practica-No-9/vistas/productos/buscar.php">Buscar producto</a>
                         </li>
                     </ul>
                 </li>
@@ -44,10 +44,10 @@
                     </a>
                     <ul class="dropdown-menu bg-dark">
                         <li class="nav-item">
-                            <a class="nav-link" href="/crud_practica9/vistas/clientes/index.php">Crear cliente</a>
+                            <a class="nav-link" href="/Practica-No-9/vistas/clientes/index.php">Crear cliente</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/crud_practica9/vistas/clientes/buscar.php">Buscar cliente</a>
+                            <a class="nav-link" href="/Practica-No-9/vistas/clientes/buscar.php">Buscar cliente</a>
                         </li>
                     </ul>
                 </li>
