@@ -3,7 +3,7 @@
     <div class="container">
         <h1 class="text-center">Formulario de ingreso de clientes</h1>
         <div class="row justify-content-center">
-            <form action="/crud_practica9/controladores/clientes/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
+            <form action="/Practica-No-9/controladores/clientes/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
                 <div class="row mb-3">
                     <div class="col">
                     <label for="cliente_nombre">Nombre del cliente</label>
@@ -12,7 +12,7 @@
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="cliente_nit">Nit del cliente</label>
+                        <label for="cliente_nit">Codigo NIT del cliente</label>
                         <input type="text" name="cliente_nit" id="cliente_nit" class="form-control">
                     </div>
                 </div>
