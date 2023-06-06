@@ -73,7 +73,7 @@ require '../../modelos/Cliente.php';
         </tr>
         <?php if (count($factura) == 0) : ?>
             <tr>
-                <td colspan="3">NO EXISTEN REGISTROS</td>
+                <td colspan="3">NO HAY EN EXISTENCIA REGISTROS</td>
             </tr>
         <?php endif ?>
     </tbody>
@@ -126,7 +126,7 @@ require '../../modelos/Cliente.php';
 
         <div class="row justify-content-center">
             <div class="col-lg-4">
-                <a href="/Practica-No-9/vistas/ventas/buscar.php" class="btn btn-info w-100">Volver al formulario</a>
+                <a href="/Practica-No-9/vistas/ventas/buscar.php" class="btn btn-info w-100">Regresar al formulario</a>
             </div>
         </div>
     </div>
