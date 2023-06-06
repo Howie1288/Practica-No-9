@@ -6,8 +6,7 @@ require_once '../../modelos/Producto.php';
         $producto = new Producto();
         $clientes = $cliente->buscar();
         $productos = $producto->buscar();
-            // var_dump($clientes);
-            // exit;
+        
     } catch (PDOException $e) {
         $error = $e->getMessage();
     } catch (Exception $e2){
