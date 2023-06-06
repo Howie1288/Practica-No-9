@@ -4,11 +4,6 @@ require '../../modelos/Producto.php';
         $producto = new Producto($_GET);
 
         $productos = $producto->buscar();
-        // echo "<pre>";
-        // var_dump($productos[0]['PRODUCTO_ID']);
-        // echo "</pre>";
-        // exit;
-        // $error = "NO se guardó correctamente";
     } catch (PDOException $e) {
         $error = $e->getMessage();
     } catch (Exception $e2){
@@ -19,7 +14,7 @@ require '../../modelos/Producto.php';
     <div class="container">
         <h1 class="text-center">Modificar Productos</h1>
         <div class="row justify-content-center">
-            <form action="/crud_practica9/controladores/productos/modificar.php" method="POST" class="col-lg-8 border bg-light p-3">
+            <form action="/Practica-No-9/controladores/productos/modificar.php" method="POST" class="col-lg-8 border bg-light p-3">
                 <input type="hidden" name="producto_id" value="<?= $productos[0]['PRODUCTO_ID'] ?>" >
                 <div class="row mb-3">
                     <div class="col">

@@ -3,7 +3,7 @@
     <div class="container">
         <h1 class="text-center">Formulario de productos</h1>
         <div class="row justify-content-center">
-            <form action="/crud_practica9/controladores/productos/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
+            <form action="/Practica-No-9/controladores/productos/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
                 <div class="row mb-3">
                     <div class="col">
                         <label for="producto_nombre">Nombre del producto</label>
