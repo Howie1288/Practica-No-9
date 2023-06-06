@@ -18,7 +18,7 @@ class Venta extends Conexion
     }
 
     public function guardar()
-    {
+    {    /* PARA INGRESAR DATOS A LA TABLA VENTAS */
         $sql = "INSERT INTO ventas(venta_cliente, venta_fecha) values('$this->venta_cliente','$this->venta_fecha')";
         $resultado = self::ejecutar($sql);
         return $resultado;
