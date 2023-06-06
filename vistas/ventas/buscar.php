@@ -19,7 +19,7 @@ require_once '../../modelos/Producto.php';
     <div class="container">
         <h1 class="text-center">Formulario de búsqueda de ventas</h1>
         <div class="row justify-content-center">
-            <form action="/crud_practica9/controladores/ventas/buscar.php" method="GET" class="col-lg-8 border bg-light p-3">
+            <form action="/Practica-No-9/controladores/ventas/buscar.php" method="GET" class="col-lg-8 border bg-light p-3">
                 <div class="row mb-3">
                     <div class="col">
                         <label for="venta_cliente">Cliente</label>
@@ -34,6 +34,7 @@ require_once '../../modelos/Producto.php';
                 <div class="row mb-3">
                     <div class="col">
                         <label for="venta_fecha">Fecha de la venta</label>
+                        <!--   PARA QUE LA HORA SE IMPRIMA EL EL FOMATO SOLICITADO -->
                         <input type="datetime-local" value="<?= date('Y-m-d H:i') ?>" name="venta_fecha" id="venta_fecha" class="form-control">
                     </div>
                 </div>
